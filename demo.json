@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "id": "edge-a",
+      "type": "firewall",
+      "destination": "*"
+    },
+    {
+      "id": "edge-b",
+      "type": "firewall",
+      "destination": "*"
+    },
+    {
+      "id": "proxy-a",
+      "type": "proxy",
+      "logging": false
+    },
+    {
+      "id": "asset-a",
+      "type": "inventory",
+      "owner": ""
+    },
+    {
+      "id": "asset-b",
+      "type": "inventory",
+      "owner": ""
+    },
+    {
+      "id": "proxy-b",
+      "type": "proxy",
+      "logging": true
+    }
+  ],
+  "pages": [
+    {
+      "source": "demo-network/p1",
+      "text": "Restrict wildcard outbound destinations. Allow only approved destinations."
+    },
+    {
+      "source": "demo-network/p2",
+      "text": "Enable proxy logging for investigation."
+    },
+    {
+      "source": "demo-ownership/p1",
+      "text": "Assign an accountable asset owner for each inventory entry."
+    }
+  ]
+}
