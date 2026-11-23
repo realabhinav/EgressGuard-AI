@@ -1,0 +1,5 @@
+resource,cpu_pct,p95_ms,hourly_usd
+worker,91,480,1.42
+api,31,540,0.88
+batch,12,100,1.20
+frontend,46,95,0.53
